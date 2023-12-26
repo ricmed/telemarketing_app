@@ -1,3 +1,4 @@
 pandas
-matplotlib
-searborn
+streamlit
+seaborn
+matplotlib.pyplot
