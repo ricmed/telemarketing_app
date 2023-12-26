@@ -37,7 +37,7 @@ def convert_df(df):
 @st.cache
 def to_excel(df):
     output = BytesIO()
-    writer = pd.ExcelWriter(output, engine='xlsxwriter')
+    writer = pd.ExcelWriter(output, engine='openpyxl')
     df.to_excel(writer, index=False, sheet_name='Sheet1')
     writer.save()
     processed_data = output.getvalue()
