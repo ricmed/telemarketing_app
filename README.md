@@ -6,6 +6,8 @@ Um app simples para análise de dados
 
 ## Utilização
 
+https://ricmed-telemarketingapp.streamlit.app/
+
 
 ## Autor
 
