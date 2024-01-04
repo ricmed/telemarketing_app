@@ -164,10 +164,10 @@ def main():
 
 
         # df_RFV.to_excel('./auxiliar/output/RFV_.xlsx')
-        df_xlsx = to_excel(df_RFV)
-        st.download_button(label='📥 Download',
-                            data=df_xlsx ,
-                            file_name= 'RFV_.xlsx')
+        #df_xlsx = to_excel(df_RFV)
+        #st.download_button(label='📥 Download',
+        #                    data=df_xlsx ,
+       #                     file_name= 'RFV_.xlsx')
 
         st.write('Quantidade de clientes por tipo de ação')
         st.write(df_RFV['acoes de marketing/crm'].value_counts(dropna=False))
