@@ -8,7 +8,7 @@ from datetime            import datetime
 from PIL                 import Image
 from io                  import BytesIO
 
-@st.cache
+@st.cache_data
 def convert_df(df):
     return df.to_csv(index=False).encode('utf-8')
 
